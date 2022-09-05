@@ -1,0 +1,29 @@
+#mainh1 {
+
+    display: flex;  
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+    font-size: 200%;
+    padding: 5%;
+}
+
+html {
+    background: url("../images/spaceground.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.mainp {
+    padding: 5%;
+}
+
+footer {
+    text-align: center;
+}
+
+

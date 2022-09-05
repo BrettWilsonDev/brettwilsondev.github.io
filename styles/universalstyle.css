@@ -1,0 +1,60 @@
+* {
+    color: white;
+}
+
+
+.cardimg{
+    /* background: url("../images/spaceground.png") no-repeat center center fixed;  */
+    
+    /* border-radius: 5%;
+    width: 25vw; */
+    /* width: 250px; */
+    /* height: 100%; */
+
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); */
+    /* grid-template-columns: auto auto auto auto; */
+    /* grid-gap: 15px; */
+    /* grid-auto-rows: max-content; */
+}
+
+.project_cards {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    /* grid-template-columns: auto auto auto auto; */
+    grid-gap: 15px;
+
+
+/* 
+    width: 200px;
+    height: 200px; */
+    /* background-color: red; */
+
+    /* display: flex;
+    width: 350px;
+    height: 450px;
+    border: 10px solid #51565c;
+    border-radius: 20px;
+    background-color: #e64135;
+    text-align: center; */
+}
+
+.card {
+    display: flex;
+    /* width: 600px;
+    height: 450px; */
+    /* width: 45vw; */
+    height: 25vh;
+    /* max-width: 100%; */
+    width: 50%;
+    /* height: 50%; */
+    border: 5px solid #09112a;
+    border-radius: 8px;
+    background-color: #1c2e5a;
+    text-align: center;
+}
+
+
+/* ujhhgb */
+ /* hygyfgt
