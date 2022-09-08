@@ -3,99 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" viewport-fit=cover, shrink-to-fit="yes">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
+    <meta http-equiv="refresh" content="0; URL=https://www.brettdwilson.com/projects" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <link rel="stylesheet" href="https://www.brettdwilson.com/assets/styles/navstyle.css">
-    <link rel="stylesheet" href="https://www.brettdwilson.com/assets/styles/cssresetter.css">
-    <!-- <link rel="stylesheet" href="https://www.brettdwilson.com/assets/styles/universalstyle.css"> -->
-    <link rel="stylesheet" href="assets/styles/projectscards.css">
     <title>Brett David Wilson's Projects</title>
+    <style>
+        .loader {
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #3498db;
+            width: 120px;
+            height: 120px;
+            -webkit-animation: spin 1s linear infinite; /* Safari */
+            animation: spin 1s linear infinite;
+        }
+
+        .center-screen {
+            position: absolute;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        
+        /* Safari */
+        @-webkit-keyframes spin {
+            0% { -webkit-transform: rotate(0deg); }
+            100% { -webkit-transform: rotate(360deg); }
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        </style>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script>
+        $(document).ready(function() {
+        $('.projectsRedirect').hide().delay(3000).fadeIn(2200);
+        });
+        </script>
+
+
 </head>
-    
 <div class="main">
 <body>
-    
-    <header>
-        <div class="nav-bar">
-            <div class="logo-socials">
-                <div class="logo">
-                </div>
-                <div class="webnamediv">
-                    <span id="webname">Brett David Wilson</span>
-                </div>
-    
-                <div class="social">
-                    <span>Social Media</span>
-                    <ul>
-                        <li><a href="https://github.com/BrettWilsonBDW" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-    
-            <div class="menu">
-                <ul class="nav">
-                    
-                  <li id="firstbutton"><a href="https://www.brettdwilson.com/" id="a-home">Home</a></li>
-                  <li><a href="https://dev.brettdwilson.com">Projects</a></li>
-                  <li><a href="https://www.brettdwilson.com/timeline">Timeline</a></li>
-                  <li><a href="https://www.brettdwilson.com/blogs">Blogs</a></li>
-                  <li><a href="https://www.brettdwilson.com/Bretts-CV" id="lastbar">My CV</a></li>
-                  
-                </ul>
-        </div>
-        <script src='https://kit.fontawesome.com/46b41f90b6.js' crossorigin='anonymous'></script>
-    </header>
-
-    
-    <main class="grid">
-        <article class="card">
-            <img src="assets/images/pokedex.PNG" alt="Sample photo">
-                <div class="text">
-                <h3>test</h3>
-                <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
-                <button>Here's why</button>
-            </div>
-        </article>
-        <article class="card">
-            <img src="/pix/samples/23m.jpg" alt="Sample photo">
-                <div class="text">
-                <h3>Seamlessly visualize quality</h3>
-                <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
-                <button>Here's why</button>
-            </div>
-        </article>
-        <article class="card">
-            <img src="/pix/samples/23m.jpg" alt="Sample photo">
-                <div class="text">
-                <h3>Seamlessly visualize quality</h3>
-                <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
-                <button>Here's why</button>
-            </div>
-        </article>
-        <article class="card lastcard">
-            <img src="/pix/samples/23m.jpg" alt="Sample photo">
-                <div class="text">
-                <h3>Seamlessly visualize quality</h3>
-                <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
-                <button>Here's why</button>
-            </div>
-        </article>
-    
-    </main>
-  
-  
-
+    <p class="projectsRedirect">Thats funny you still here. If you are not yet redirected Please use, <a href="https://www.brettdwilson.com/projects">www.brettdwilson.com/projects</a> to go to the the Projects page, thank you.</p>
+    <div class="loader center-screen"></div>
 </body>
 </div>
-    
-    <footer>
-    © | Made Brett
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script>
-    $("footer").text("© " + (new Date).getFullYear() + " | Made by Brett Wilson" );
-    </script>
+
+<footer>
 </footer>
 
 </html>
-<!-- ahh vs code how I love how you slowly destroy my code with null null null   -->
+
+<!-- flipen null null null -->
