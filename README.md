@@ -1,4 +1,4 @@
-# https://dev.brettdwilson.com
+# https://www.brettdwilson.com
 
 redirects to https://www.brettdwilson.com
 
